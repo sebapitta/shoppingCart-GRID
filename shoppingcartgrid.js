@@ -9,6 +9,4 @@ app.listen(3002, () => {
 app.get("/", (req, res) => {
   res.sendFile(__dirname + "/views/home.html");
 });
-app.get('/productos/:idProductos', function(req,res) {
-  res.send("Bienvenidos al detalle de producto");
-})
+
